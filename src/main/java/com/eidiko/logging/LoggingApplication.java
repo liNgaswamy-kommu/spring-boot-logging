@@ -6,11 +6,11 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
 @EnableAsync
-public class SpringbootLoggingMdcDemoApplication {
+public class LoggingApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(SpringbootLoggingMdcDemoApplication.class, args);
+		SpringApplication.run(LoggingApplication.class, args);
 		System.err.println("*** Welcome to Logging & MDC ***");
 	}
 
